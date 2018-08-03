@@ -1,0 +1,3 @@
+/Users/feng/workspace/c:c++/learn-basic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/feng/workspace/c:c++/learn-basic/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/feng/workspace/c:c++/learn-basic/cmake-build-debug/CMakeFiles/learn_basic.dir
