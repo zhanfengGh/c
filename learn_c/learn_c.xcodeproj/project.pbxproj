@@ -7,10 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B25BA01121143C88001BB8CF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B25BA01021143C88001BB8CF /* main.c */; };
+		B25BA01C21144A55001BB8CF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B25BA01B21144A55001BB8CF /* main.c */; };
 		B2BCE0382113E50300C87F79 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B2BCE0372113E50300C87F79 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		B25BA00C21143C88001BB8CF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B25BA01721144A55001BB8CF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		B2BCE0322113E50300C87F79 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -23,11 +43,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B25BA00E21143C88001BB8CF /* zflhl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zflhl; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25BA01021143C88001BB8CF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B25BA01921144A55001BB8CF /* tbt_psw */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tbt_psw; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25BA01B21144A55001BB8CF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		B2BCE0342113E50300C87F79 /* learn_c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learn_c; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2BCE0372113E50300C87F79 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B25BA00B21143C88001BB8CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25BA01621144A55001BB8CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B2BCE0312113E50300C87F79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +76,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B25BA00F21143C88001BB8CF /* zflhl */ = {
+			isa = PBXGroup;
+			children = (
+				B25BA01021143C88001BB8CF /* main.c */,
+			);
+			path = zflhl;
+			sourceTree = "<group>";
+		};
+		B25BA01A21144A55001BB8CF /* tbt_psw */ = {
+			isa = PBXGroup;
+			children = (
+				B25BA01B21144A55001BB8CF /* main.c */,
+			);
+			path = tbt_psw;
+			sourceTree = "<group>";
+		};
 		B2BCE02B2113E50300C87F79 = {
 			isa = PBXGroup;
 			children = (
 				B2BCE0362113E50300C87F79 /* learn_c */,
+				B25BA00F21143C88001BB8CF /* zflhl */,
+				B25BA01A21144A55001BB8CF /* tbt_psw */,
 				B2BCE0352113E50300C87F79 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				B2BCE0342113E50300C87F79 /* learn_c */,
+				B25BA00E21143C88001BB8CF /* zflhl */,
+				B25BA01921144A55001BB8CF /* tbt_psw */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +123,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B25BA00D21143C88001BB8CF /* zflhl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25BA01221143C88001BB8CF /* Build configuration list for PBXNativeTarget "zflhl" */;
+			buildPhases = (
+				B25BA00A21143C88001BB8CF /* Sources */,
+				B25BA00B21143C88001BB8CF /* Frameworks */,
+				B25BA00C21143C88001BB8CF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zflhl;
+			productName = zflhl;
+			productReference = B25BA00E21143C88001BB8CF /* zflhl */;
+			productType = "com.apple.product-type.tool";
+		};
+		B25BA01821144A55001BB8CF /* tbt_psw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25BA01D21144A55001BB8CF /* Build configuration list for PBXNativeTarget "tbt_psw" */;
+			buildPhases = (
+				B25BA01521144A55001BB8CF /* Sources */,
+				B25BA01621144A55001BB8CF /* Frameworks */,
+				B25BA01721144A55001BB8CF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tbt_psw;
+			productName = tbt_psw;
+			productReference = B25BA01921144A55001BB8CF /* tbt_psw */;
+			productType = "com.apple.product-type.tool";
+		};
 		B2BCE0332113E50300C87F79 /* learn_c */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2BCE03B2113E50300C87F79 /* Build configuration list for PBXNativeTarget "learn_c" */;
@@ -91,6 +183,12 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = zhanfeng.zhang;
 				TargetAttributes = {
+					B25BA00D21143C88001BB8CF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B25BA01821144A55001BB8CF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					B2BCE0332113E50300C87F79 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -109,11 +207,29 @@
 			projectRoot = "";
 			targets = (
 				B2BCE0332113E50300C87F79 /* learn_c */,
+				B25BA00D21143C88001BB8CF /* zflhl */,
+				B25BA01821144A55001BB8CF /* tbt_psw */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B25BA00A21143C88001BB8CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25BA01121143C88001BB8CF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25BA01521144A55001BB8CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25BA01C21144A55001BB8CF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B2BCE0302113E50300C87F79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,6 +241,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		B25BA01321143C88001BB8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B25BA01421143C88001BB8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B25BA01E21144A55001BB8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B25BA01F21144A55001BB8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		B2BCE0392113E50300C87F79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -253,6 +401,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B25BA01221143C88001BB8CF /* Build configuration list for PBXNativeTarget "zflhl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25BA01321143C88001BB8CF /* Debug */,
+				B25BA01421143C88001BB8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25BA01D21144A55001BB8CF /* Build configuration list for PBXNativeTarget "tbt_psw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25BA01E21144A55001BB8CF /* Debug */,
+				B25BA01F21144A55001BB8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B2BCE02F2113E50300C87F79 /* Build configuration list for PBXProject "learn_c" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

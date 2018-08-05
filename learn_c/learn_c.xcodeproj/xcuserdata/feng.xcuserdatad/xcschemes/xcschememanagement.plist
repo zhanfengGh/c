@@ -4,10 +4,45 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>learn_c.xcscheme</key>
+		<key>learn_c 2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>learn_c.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>tbt_psw.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>zflhl.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B25BA00D21143C88001BB8CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B25BA01821144A55001BB8CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B2BCE0332113E50300C87F79</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
