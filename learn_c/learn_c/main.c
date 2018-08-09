@@ -18,7 +18,7 @@ int fabonacii(int);
 
 int func_contains(int, int, int);
 
-int main(int argc, const char * argv[]) {
+int main2(int argc, const char * argv[]) {
     // insert code here...
     // printf("Hello, World!\n");
     // func_a(158);
@@ -33,6 +33,15 @@ int main(int argc, const char * argv[]) {
     int counter = func_contains(0, 100, 9);
     counter = func_contains(0, 10, 0);
     
+    return 0;
+}
+
+//enum coordinate_type {RECTANGULAR = 1, POLAR};
+
+int main(int argc, const char * argv[]) {
+    enum coordinate_type {RECTANGULAR = 1, POLAR};
+//  int RECTANGULAR;
+    printf("%d %d\n", RECTANGULAR, POLAR);
     return 0;
 }
 

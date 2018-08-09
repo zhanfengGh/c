@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     char psw[11];
     sh_get_wa205_supper_psw(argv[1], psw);
-    printf("sn: %s\npsw: %s\n", argv[1], psw);
+    printf("sn:\t%s\npsw:\t%s\n", argv[1], psw);
     return 0;
 }
 
